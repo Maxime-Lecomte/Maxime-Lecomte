@@ -7,6 +7,7 @@ Hi ! here is the palindrome the goal of this project is to find such iterated re
 # First flag : -n
 
 A palindrome is a word or a number which reads the same backward or forward (that is for numbers, numbers invariant when reversed).
+
 A n-iteration turnover palindrome is a number which leads to a palindrome after n iterations of the following procedure:
 1. reverse the number,
 2. add both the number and its reversal to obtain a new number,
@@ -20,5 +21,7 @@ the goal of -p is to start from 1 and for each digit we must use the -n method u
 ## other flags
 
 -imin n : set the min iteration at n
+
 -imax n : set the max iteration at n
+
 -b n : set the base at n
